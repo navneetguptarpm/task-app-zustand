@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task App
+
+A simple and efficient task management web application to organize your daily workflow.  
+Built with a modern design and intuitive interface.
+
+---
+
+## Features
+
+- Add new tasks with title, description, priority, and status
+- Manage tasks across statuses: New, In Progress, Review, and Completed
+- Archive or delete tasks
+- Restore deleted tasks from Trash
+- View full task details and timestamps
+- Minimal and responsive UI
+
+---
+
+## Screenshots
+
+### Dashboard Overview
+
+Displays all task columns and a button to add new tasks.
+
+![Dashboard](./public/dashboard.png)
+
+---
+
+### Create New Task Modal
+
+Enter task details and choose priority & status.
+
+![Create Task](./public/create-task.png)
+
+---
+
+### Task In Progress Example
+
+A sample task showing priority badge, options to archive or delete, and task description.
+
+![Task Card](./public/task-card.png)
+
+---
+
+### Task Details Modal
+
+View complete task information with priority, status, timestamps, and quick actions.
+
+![Task Details](./public/task-details.png)
+
+---
+
+### Trash View
+
+List of deleted tasks with the ability to restore or permanently delete.
+
+![Trash](./public/trash.png)
+
+---
+
+### Archived Tasks
+
+View archived tasks and unarchive or delete them anytime.
+
+![Archived Tasks](./public/archived-task.png)
+
+---
+
+### Restored Task View
+
+Example of a restored task successfully appearing back in the active board.
+
+![Restored Task](./public/restored-task.png)
+
+---
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the project locally:
+
+Clone the repository
+
+```bash
+git clone https://github.com/navneetguptarpm/task-app.zustand.git
+```
+
+Navigate into the project folder
+
+```bash
+cd task-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app should now be available at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- React (Next.js)
+- TypeScript
+- CSS Modules / Tailwind (as styling solution)
+- Zustand for state management.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the [MIT License](LICENSE).
